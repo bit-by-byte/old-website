@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/b0bfd897c5.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <title>Bit by Byte</title>
-</head>
-<body>
-  <header>
-    <div class="container-fluid p-0">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">B/B</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="#">Classes</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/b0bfd897c5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="/js/main.js"></script>
+    <title>Bit by Byte</title>
+  </head>
+  <body>
+    <header class="hero is-fullheight is-success">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a href="/" class="navbar-item">
+                <h1 class="title">B/B</h1>
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <div class="navbar-end">
+                <a href="/" class="navbar-item">Home</a>
+                <div class="navbar-item">
+                  <a href="#" class="button is-rounded is-white">
+                    More Coming Soon
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div class="typed-phrases">
+            <p>Welcome to Code</p>
+            <p>Welcome to Bit by Byte!</p>
+          </div>
+          <div class="title mb-6">
+            <div class="typed is-inline"></div>
+          </div>
+          <!-- <div class="typed title mb-6"></div> -->
+          <h1 class="subtitle">
+            Get ready for the start of your programming adventure!
+          </h1>
         </div>
-      </nav>
-    </div>
-    <div class="intro-title text-center text-light">
-      <h1>Welcome to Bit by Byte</h1>
-      <h5>
-        Get ready for the start of your programming adventure!
-      </h5>
-    </div>
-    <div class="social-bar text-center text-light">
-      <a href="https://www.instagram.com/bit.by.byte/">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://twitter.com/bitbybyteinc">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="mailto:ayush@bitbybyte.org">
-        <i class="far fa-envelope"></i>
-      </a>
-    </div>
-  </header>
-  <main></main>
-  <footer></footer>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-</body>
+      </div>
+    </header>
+    <main>
+      <div class="section is-large">
+        <h1 class="title">Want to catch up?</h1>
+        <h2 class="subtitle">Check out our socials!</h2>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
