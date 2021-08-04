@@ -20,7 +20,7 @@
     <title>Bit by Byte</title>
   </head>
   <body>
-    <header class="hero is-fullheight is-success">
+    <header class="hero is-fullheight is-link">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
@@ -28,8 +28,20 @@
               <a href="/" class="navbar-item">
                 <h1 class="title">B/B</h1>
               </a>
+
+              <a
+                role="button"
+                class="navbar-burger"
+                aria-label="menu"
+                aria-expanded="false"
+                data-target="navMenu"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
             </div>
-            <div class="navbar-menu">
+            <div class="navbar-menu" id="navMenu">
               <div class="navbar-end">
                 <a href="/" class="navbar-item">Home</a>
                 <div class="navbar-item">
@@ -45,25 +57,46 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="typed-phrases">
-            <p>Welcome to Code</p>
+            <p>Welcome to Coding!</p>
             <p>Welcome to Bit by Byte!</p>
           </div>
           <div class="title mb-6">
             <div class="typed is-inline"></div>
           </div>
-          <!-- <div class="typed title mb-6"></div> -->
           <h1 class="subtitle">
             Get ready for the start of your programming adventure!
           </h1>
         </div>
       </div>
+      <div class="hero-foot">
+        <div class="social-bar has-text-centered mb-6">
+          <a href="https://www.instagram.com/bit.by.byte/">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://twitter.com/bitbybyteinc">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:ayush@bitbybyte.org">
+            <i class="far fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
     </header>
     <main>
-      <div class="section is-large">
-        <h1 class="title">Want to catch up?</h1>
-        <h2 class="subtitle">Check out our socials!</h2>
-      </div>
+      <!-- TODO: add something here  -->
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bit by Byte</strong> is a NC Nonprofit Organization.
+          <br />
+          Copyright © 2021 Bit by Byte under the
+          <a
+            href="https://raw.githubusercontent.com/bit-by-byte/bit-by-byte.github.io/master/LICENSE"
+            >MIT License.</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

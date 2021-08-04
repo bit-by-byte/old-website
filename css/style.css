@@ -1,7 +1,30 @@
 .hero-body .title {
-  font-size: 5vw;
+  font-size: 6vw;
 }
 
 header {
   background: linear-gradient(to bottom right, #8a2387, #e94057, #f27121);
+}
+
+.navbar-menu {
+  background: transparent !important;
+}
+
+.social-bar i {
+  font-size: 3em;
+  background: white;
+  color: black;
+  mix-blend-mode: screen;
+  padding: 10px;
+}
+.social-bar a:first-child i {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 15px;
+}
+
+.social-bar a:last-child i {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-right: 15px;
 }
