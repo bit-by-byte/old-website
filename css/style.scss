@@ -1,3 +1,17 @@
+$main-gradient: linear-gradient(
+  90deg,
+  rgba(255, 184, 0, 1) 0%,
+  rgba(241, 62, 40, 1) 80%,
+  rgba(255, 0, 0, 1) 100%
+);
+
+$alt-gradient: linear-gradient(
+  90deg,
+  rgba(255, 0, 0, 1) 0%,
+  rgba(241, 62, 40, 1) 20%,
+  rgba(255, 184, 0, 1) 100%
+);
+
 html {
   scroll-behavior: smooth;
 }
@@ -23,10 +37,8 @@ header {
 }
 
 .orange {
-  background: #ff1c00;
-  background: -webkit-gradient(linear, left top, right top, from(#ffb800), color-stop(80%, #f13e28), to(red));
-  background: linear-gradient(90deg, #ffb800 0%, #f13e28 80%, red 100%);
+  background: rgb(255, 28, 0);
+  background: $main-gradient;
   background-clip: text;
   color: transparent;
 }
-/*# sourceMappingURL=style.css.map */

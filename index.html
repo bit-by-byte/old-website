@@ -15,18 +15,29 @@
     ></script>
     <!-- Typed.js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link
+      rel="preload"
+      href="fonts/EarthOrbiterBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="/js/main.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Bit by Byte</title>
   </head>
   <body>
-    <header class="hero is-fullheight is-link">
+    <header class="hero is-fullheight">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
               <a href="/" class="navbar-item">
-                <h1 class="title">B/B</h1>
+                <img src="/images/logo2.2.svg" />
               </a>
 
               <a
@@ -45,7 +56,7 @@
               <div class="navbar-end">
                 <a href="/" class="navbar-item">Home</a>
                 <div class="navbar-item">
-                  <a href="#classes" class="button is-rounded is-white">
+                  <a href="#classes" class="button is-rounded is-danger">
                     Classes
                   </a>
                 </div>
@@ -58,7 +69,7 @@
         <div class="container has-text-centered">
           <div class="typed-phrases">
             <p>Welcome to Coding!</p>
-            <p>Welcome to Bit by Byte!</p>
+            <p>Welcome to <span class="orange">Bit by Byte!</span></p>
           </div>
           <div class="title mb-6">
             <div class="typed is-inline"></div>
@@ -69,16 +80,20 @@
         </div>
       </div>
       <div class="hero-foot">
-        <div class="social-bar has-text-centered mb-6">
-          <a href="https://www.instagram.com/bit.by.byte/">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/bitbybyteinc">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="mailto:ayush@bitbybyte.org">
-            <i class="far fa-envelope" aria-hidden="true"></i>
-          </a>
+        <div class="social-bar columns has-text-centered mb-6">
+          <div class="column"></div>
+          <div class="column is-narrow orange">
+            <a href="https://www.instagram.com/bit.by.byte/">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/bitbybyteinc">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:ayush@bitbybyte.org">
+              <i class="far fa-envelope" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="column"></div>
         </div>
       </div>
     </header>
@@ -103,7 +118,7 @@
                   </p>
                   <p>
                     This course is <strong>highly recommended</strong> to take
-                    first if you are new to programming
+                    first if you are new to programming.
                   </p>
                 </div>
               </div>
